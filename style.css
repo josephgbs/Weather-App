@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%) no-repeat fixed;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 147, 233, 0);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.appTittle {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.submit {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    margin-left: 0.5em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 147, 233, 0);
+    border-radius: 0.4em;
+    color: rgb(252, 252, 252);
+    text-align: right;
+    transition: all 500 ease;
+    background: linear-gradient(145deg, #36b7eb, #2d9ac6);
+    box-shadow: 4px 4px 9px #2b91bb, -4px -4px 9px #3ac5fd;
+    transition: box-shadow 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+    transition: background 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+.submit i {
+    color: rgb(38, 52, 54);
+}
+
+.submit:hover {
+    background: linear-gradient(145deg, #2d9ac6, #36b7eb);
+    box-shadow: 4px 4px 9px #2b91bb, -4px -4px 9px #3ac5fd;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.error-placeholder::placeholder {
+    color: rgb(202, 48, 48);
+}

@@ -1,5 +1,5 @@
 # Weather-App
-A simple responsive Weather App using Axios (openWeathenAPI), Bootstrap, and FontAwesome. 
+A simple responsive Weather App using Axios (openWeatherAPI), Bootstrap, and FontAwesome. 
 
 
 ![alt text](https://i.ibb.co/yqwnkh7/Weather-App.jpg)
